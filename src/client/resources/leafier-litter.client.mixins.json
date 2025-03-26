@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "com.ducklegs.leafierlitter.mixin.client",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+      "ExampleClientMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

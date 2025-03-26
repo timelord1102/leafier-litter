@@ -1,0 +1,44 @@
+{
+	"schemaVersion": 1,
+	"id": "leafier-litter",
+	"version": "${version}",
+	"name": "Leafier Litter",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/leafier-litter/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.ducklegs.leafierlitter.LeafierLitter"
+		],
+		"client": [
+			"com.ducklegs.leafierlitter.LeafierLitterClient"
+		],
+		"fabric-datagen": [
+			"com.ducklegs.leafierlitter.LeafierLitterDataGenerator"
+		]
+	},
+	"mixins": [
+		"leafier-litter.mixins.json",
+		{
+			"config": "leafier-litter.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21.5",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
