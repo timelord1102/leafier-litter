@@ -22,7 +22,7 @@ public class LeafierLitter implements ModInitializer {
 		// Proceed with mild caution.
 		LOGGER.info("Hello Fabric world!");
 		ModItems.initialize();
-		ModBlocks.register();
+		ModBlocks.initialize();
 
 	}
 }

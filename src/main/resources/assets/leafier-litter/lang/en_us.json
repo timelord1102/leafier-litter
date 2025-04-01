@@ -1,4 +1,7 @@
 {
-  "item.leafier-litter.fresh_leaf_litter" : "Fresh Leaf Litter",
-  "item.leafier-litter.suspicious_substance": "Suspicious Substance"
+  "item.leafier-litter.fresh_oak_leaf_litter" : "Fresh Oak Leaf Litter",
+  "item.leafier-litter.autumnal_oak_leaf_litter": "Autumnal Oak Leaf Litter",
+  "item.leafier-litter.fresh_birch_leaf_litter" : "Fresh Birch Leaf Litter",
+  "item.leafier-litter.autumnal_birch_leaf_litter": "Autumnal Birch Leaf Litter",
+  "item.leafier-litter.decayed_birch_leaf_litter" : "Decayed Birch Leaf Litter"
 }

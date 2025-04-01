@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "leafier-litter:item/fresh_leaf_litter"
-  }
-}

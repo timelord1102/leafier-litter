@@ -3,7 +3,9 @@
 	"package": "com.ducklegs.leafierlitter.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"leaflittermixin"
+		"leaflittermixin",
+		"SaplingGeneratorMixin",
+		"GetBiomeWeatherMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
