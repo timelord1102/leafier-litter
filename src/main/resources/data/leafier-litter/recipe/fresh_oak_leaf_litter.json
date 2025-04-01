@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "minecraft:oak_leaves"
+  ],
+    "result": {
+        "id": "leafier-litter:fresh_oak_leaf_litter",
+        "count": 4
+    }
+}

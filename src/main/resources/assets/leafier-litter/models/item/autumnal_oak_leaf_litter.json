@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "leafier-litter:item/autumnal_oak_leaf_litter"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "minecraft:birch_leaves"
+  ],
+  "result": {
+    "id": "leafier-litter:fresh_birch_leaf_litter",
+    "count": 4
+  }
+}
